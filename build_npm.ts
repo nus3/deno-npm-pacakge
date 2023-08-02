@@ -11,8 +11,7 @@ await build({
   package: {
     name: "@nus3/deno-package",
     version: Deno.args[0],
-    description:
-      "Boolean function that returns whether or not parameter is the number 42",
+    description: "String function that returns where the cow says Hello nus3",
     license: "MIT",
     repository: {
       type: "git",

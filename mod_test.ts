@@ -1,10 +1,6 @@
-import { assertEquals } from "https://deno.land/std@0.192.0/testing/asserts.ts";
-import { is42 } from "./mod.ts";
+import { assertStringIncludes } from "https://deno.land/std@0.192.0/testing/asserts.ts";
+import { cowsayNus3 } from "./mod.ts";
 
-Deno.test("42 should return true", () => {
-  assertEquals(true, is42(42));
-});
-
-Deno.test("1 should return false", () => {
-  assertEquals(false, is42(1));
+Deno.test("Cow should say Hello nus3!", () => {
+  assertStringIncludes(cowsayNus3(), "Hello nus3!");
 });
