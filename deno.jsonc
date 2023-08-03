@@ -1,5 +1,6 @@
 {
   "tasks": {
     "build": "deno run -A build_npm.ts"
-  }
+  },
+  "exclude": ["example/", "npm/"]
 }
