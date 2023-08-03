@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cjs": "tsx cjs.ts",
+    "esm": "tsx esm.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nus3/cowsay-nus3": "0.0.1"
+  },
+  "devDependencies": {
+    "tsx": "3.12.7"
+  }
+}
